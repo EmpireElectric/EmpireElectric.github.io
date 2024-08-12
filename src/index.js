@@ -9,10 +9,11 @@ import GetInTouch from "./GetInTouch";
 import Video from "./Video"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
       <Header />
-        <Video />
+      <Video />
       <Services />
       <DiscoverMore />
       <SocialMedia />

@@ -11,14 +11,14 @@ function Header(props) {
         window.scrollTo({ top: bodyHeight, behavior: "smooth" })
     }
 
-    const onMessage = (ev) => {
-        if (ev.data === 'hcp:close') {
-            toggleModal()
-        }
-    }
-
     useEffect(() => {
         if (modal) {
+            const onMessage = (ev) => {
+                if (ev.data === 'hcp:close') {
+                    setModal(false)
+                }
+            }
+
             window.scroll({top: 0, behavior: "instant"})
             bookOnlineRef.current?.contentWindow?.postMessage("hcp:open","*")
             document.body.style.overflowY = "hidden"
@@ -28,7 +28,7 @@ function Header(props) {
                 window.removeEventListener("message", onMessage)
             }
         } else
-            document.body.style.overflowY = ""
+            document.body.style.overflowY = "visible"
     }, [modal])
 
   return (
@@ -60,7 +60,7 @@ function Header(props) {
           </div>
 
           <dialog open={modal} className={"absolute w-full h-full top-0 bg-gray-900/60"}>
-              <iframe ref={bookOnlineRef} className={"z-10 w-full h-full absolute top-0"}
+              <iframe title={"BookOnline"} ref={bookOnlineRef} className={"z-10 w-full h-full absolute top-0"}
                       src={"https://book.housecallpro.com/book/Empire-Electric/d6be251fe2034c498bd1db3a19293fbb?v2=true"}/>
           </dialog>
       </div>

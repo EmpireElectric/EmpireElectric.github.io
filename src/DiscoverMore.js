@@ -3,7 +3,7 @@ function DiscoverMore(props) {
     return (
         <div>
             <div className={"hidden lg:grid grid-cols-2 w-full max-w-screen-xl m-auto px-6"}>
-                <img className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
+                <img alt={""} className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
                 <div className={"w-2/3 m-auto"}>
                     <h1 className={"text-gray-800 text-6xl font-bold mb-5"}>Discover more about Empire Electric</h1>
                     <h1 className={"text-lg font-semibold"}>At Empire Electric, we are committed to illuminating the
@@ -21,7 +21,7 @@ function DiscoverMore(props) {
                         a passion for excellence and sustainability. Every project is infused with our core values,
                         striving to enhance communities through reliable and cutting-edge electrical services.</h1>
                 </div>
-                <img className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
+                <img alt={""} className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
             </div>
         </div>
     );

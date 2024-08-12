@@ -6,9 +6,9 @@ function Services(props) {
                 Services</h1>
 
             <div className={"hidden md:grid grid-cols-3"}>
-                <img className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/ElectricalBox.png"}/>
-                <img className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/ElectricalSocket.png"}/>
-                <img className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/LightFixtures.png"}/>
+                <img alt={""} className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/ElectricalBox.png"}/>
+                <img alt={""} className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/ElectricalSocket.png"}/>
+                <img alt={""} className={"w-full px-6 lg:row-span-2"} src={process.env.PUBLIC_URL + "/LightFixtures.png"}/>
             </div>
             <div className={"hidden md:grid grid-cols-3"}>
                 <div className={"px-6 xl:pr-12"}>
@@ -45,7 +45,7 @@ function Services(props) {
                     <br/>
                     <p>(servicing Dayton and surrounding areas)</p>
                 </div>
-                <img className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/ElectricalBox.png"}/>
+                <img alt={""} className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/ElectricalBox.png"}/>
 
                 <div className={"px-6 xl:pr-12"}>
                     <h1 className={"text-orange-500 font-bold text-2xl underline"}>24/7 Emergency Service</h1>
@@ -53,7 +53,7 @@ function Services(props) {
                         weekends, and holidays, to respond quickly to emergency calls. This ensures that critical issues
                         are addressed promptly, minimizing potential damage and safety hazards.</p>
                 </div>
-                <img className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/ElectricalSocket.png"}/>
+                <img alt={""} className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/ElectricalSocket.png"}/>
 
                 <div className={"px-6 xl:pr-12"}>
                     <h1 className={"text-orange-500 font-bold text-2xl underline"}>100% Satisfaction Guarantee</h1>
@@ -61,7 +61,7 @@ function Services(props) {
                         and customer care, giving clients confidence that their electrical needs will be met to their
                         highest standards.</p>
                 </div>
-                <img className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/LightFixtures.png"}/>
+                <img alt={""} className={"w-full p-6 max-w-sm mx-auto"} src={process.env.PUBLIC_URL + "/LightFixtures.png"}/>
             </div>
         </div>
     );
