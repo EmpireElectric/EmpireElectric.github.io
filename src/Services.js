@@ -1,7 +1,7 @@
 function Services(props) {
 
     return (
-        <div className={"w-full max-w-screen-xl mx-auto lg:py-6"}>
+        <div className={"overflow-hidden md:overflow-auto w-full max-w-screen-xl mx-auto lg:py-6"}>
             <h1 className={"text-3xl xl:text-6xl font-bold text-gray-800 max-w-xl w-full ml-6 pt-10 pb-6 pr-12 lg:pr-0"}>Our Comprehensive
                 Services</h1>
 

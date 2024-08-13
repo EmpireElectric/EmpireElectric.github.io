@@ -12,11 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <Header />
-      <Video />
-      <Services />
-      <DiscoverMore />
-      <SocialMedia />
-      <GetInTouch />
+      <Header/>
+        <Video/>
+        <Services/>
+        <DiscoverMore/>
+        <SocialMedia/>
+        <GetInTouch/>
   </React.StrictMode>
 );
