@@ -1,22 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Header from './Header';
-import Services from './Services'
-import DiscoverMore from "./DiscoverMore";
-import SocialMedia from "./SocialMedia";
-import GetInTouch from "./GetInTouch";
-import Video from "./Video"
-
+import Home from './Home'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-      <Header/>
-        <Video/>
-        <Services/>
-        <DiscoverMore/>
-        <SocialMedia/>
-        <GetInTouch/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
