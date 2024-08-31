@@ -20,7 +20,7 @@ function GetInTouch(props) {
             <div className={"grid grid-cols-1"}>
                 <a href={"tel:+19375415098"}
                    className="underline pt-3 text-center text-xl font-semibold text-blue-700 active:text-blue-900">
-                    937-541-5098
+                    (937)-541-5098
                 </a>
             </div>
         </div>
