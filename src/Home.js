@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import Video from './Video'
 
 function Home(props) {
     const [modal, setModal] = useState(false)
@@ -27,11 +28,7 @@ function Home(props) {
 
   return (
     <>
-        <video src={process.env.PUBLIC_URL + '/BannerVideo.mov'} className={"fixed top-0 -z-20 w-auto min-w-full min-h-full max-w-none"} loop autoPlay muted playsInline>
-        </video>
-        <div className="absolute inset-0 bg-black/80 -z-10">
-
-        </div>
+        <Video/>
         <div className={"text-white animate-fadein"}>
 
             {/* Desktop Text */}

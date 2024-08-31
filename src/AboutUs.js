@@ -4,7 +4,7 @@ import DiscoverMore from "./DiscoverMore";
 function Home(props) {
 
     return (
-      <div className="mb-20">
+      <div className="mb-20 mt-5">
             <Services/>
             <DiscoverMore/>
       </div>

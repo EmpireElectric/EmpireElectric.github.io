@@ -1,27 +1,17 @@
-import {useRef} from "react";
+import { useRef } from "react";
 
 function Video(props) {
-
     const videoRef = useRef()
 
     const setPlayback = () => {
-        videoRef.current.playbackRate = 0.75
+        videoRef.current.playbackRate = 0.7
     }
 
     return (
         <>
-            <video className={"hidden md:block 4xl:rounded-lg w-full max-w-screen-3xl mx-auto"} ref={videoRef} onPlay={() => {
-                setPlayback()
-            }} loop autoPlay muted playsInline>
-                <source className={"max-w-screen-3xl"} src={process.env.PUBLIC_URL + '/BannerVideoThin.mov'}
-                        type="video/mp4"/>
-            </video>
-            <video className={"md:hidden w-full"} ref={videoRef} onPlay={() => {
-                setPlayback()
-            }} loop autoPlay muted playsInline>
-                <source src={process.env.PUBLIC_URL + '/BannerVideo.mov'}
-                        type="video/mp4"/>
-            </video>
+        <video onPlay={() => {setPlayback()}} ref={videoRef} src={process.env.PUBLIC_URL + '/BannerVideo.mov'} className={"fixed top-0 -z-20 w-auto min-w-full min-h-full max-w-none"} loop autoPlay muted playsInline>
+        </video>
+        <div className="fixed inset-0 bg-black/70 -z-10"/>
         </>
     );
 }
