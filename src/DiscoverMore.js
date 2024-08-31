@@ -1,7 +1,7 @@
 function DiscoverMore(props) {
 
     return (
-        <div className="bg-gray-400 w-fit mx-5 sm:mx-auto p-5 rounded shadow shadow-black">
+        <div className="bg-gray-400 w-fit mx-5 xl:mx-auto p-5 rounded shadow shadow-black">
             <div className={"hidden lg:grid grid-cols-2 w-full max-w-screen-xl m-auto"}>
                 <img alt={""} className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
                 <div className={"w-2/3 m-auto"}>
