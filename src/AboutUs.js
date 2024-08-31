@@ -7,8 +7,10 @@ function Home(props) {
     return (
       <div className="mb-5">
             <Navbar/>
+            <div className={"animate-fadein"}>
             <Services/>
             <DiscoverMore/>
+        </div>
       </div>
     );
   }

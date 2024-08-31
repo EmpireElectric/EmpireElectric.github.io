@@ -17,12 +17,12 @@ module.exports = {
       keyframes: {
         fade: {
           '0%': { opacity: 0 },
-          '25%': {opacity: 0 },
+          '15%': {opacity: 0 },
           '100%': {opacity: 1}
         }
       },
       animation: {
-        fadein: 'fade 1.5s linear forwards'
+        fadein: 'fade 1s linear forwards'
       }
     },
   },
