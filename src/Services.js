@@ -2,7 +2,7 @@ function Services(props) {
 
     return (
         <>
-            <h1 className="max-w-screen-xl ml-5 xl:mx-auto text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700">
+            <h1 className="max-w-screen-xl ml-5 xl:mx-auto text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-300">
                 Our Comprehensive<br/>Services
             </h1>
 

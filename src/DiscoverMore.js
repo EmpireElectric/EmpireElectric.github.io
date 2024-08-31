@@ -1,8 +1,8 @@
 function DiscoverMore(props) {
 
     return (
-        <div>
-            <div className={"hidden lg:grid grid-cols-2 w-full max-w-screen-xl m-auto px-6"}>
+        <div className="bg-gray-400 w-fit mx-5 sm:mx-auto p-5 rounded shadow shadow-black">
+            <div className={"hidden lg:grid grid-cols-2 w-full max-w-screen-xl m-auto"}>
                 <img alt={""} className={"w-full"} src={process.env.PUBLIC_URL + "/Working.png"}/>
                 <div className={"w-2/3 m-auto"}>
                     <h1 className={"text-gray-800 text-6xl font-bold mb-5"}>Discover more about Empire Electric</h1>

@@ -1,10 +1,12 @@
 import Services from "./Services";
 import DiscoverMore from "./DiscoverMore";
+import Navbar from './Navbar';
 
 function Home(props) {
 
     return (
-      <div className="mb-20 mt-5">
+      <div className="mb-5">
+            <Navbar/>
             <Services/>
             <DiscoverMore/>
       </div>
