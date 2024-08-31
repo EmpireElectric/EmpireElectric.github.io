@@ -32,7 +32,7 @@ function Home(props) {
         <div className="absolute inset-0 bg-black/80 -z-10">
 
         </div>
-        <div className={"text-white"}>
+        <div className={"text-white animate-fadein"}>
 
             {/* Desktop Text */}
             <div className={"hidden sm:block mt-[30vh] ml-[20vw]"}>

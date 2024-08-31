@@ -13,7 +13,18 @@ module.exports = {
       '3xl': '1920px',
       '4xl': '2000px'
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        fade: {
+          '0%': { opacity: 0 },
+          '25%': {opacity: 0 },
+          '100%': {opacity: 1}
+        }
+      },
+      animation: {
+        fadein: 'fade 1.5s linear forwards'
+      }
+    },
   },
   plugins: [],
 }
