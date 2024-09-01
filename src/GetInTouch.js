@@ -5,7 +5,7 @@ function GetInTouch(props) {
     return (
         <div className={"m-5 sm:mx-auto w-fit p-5 bg-gray-400 rounded shadow shadow-black"}>
             <div className={"m-auto w-fit mb-3 bg-red"}>
-                <h1 className={"text-6xl font-bold text-gray-800"}>Get In Touch</h1>
+                <h1 className={"text-4xl text-center md:text-6xl font-bold text-gray-800"}>Get In Touch</h1>
                 <p className={"text-xl max-w-96"}>
                     If you are interested in collaborating with us, please share your information. We look forward to
                     connecting with you soon!

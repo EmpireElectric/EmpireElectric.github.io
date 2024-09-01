@@ -62,14 +62,14 @@ function Home(props) {
             <div className={"hidden sm:flex gap-2 my-5 ml-[20vw]"}>
                 <button onClick={() => {toggleModal()}} className={"bg-blue-600 active:bg-blue-800 p-2 mx-2 hover:px-4 hover:mx-0 rounded shadow-blue-900 shadow-md duration-200"}>Book Online</button>
                 <button onClick={() => {window.location = '/ContactUs'}} className={"bg-green-600 active:bg-green-800 p-2 mx-2 hover:px-4 hover:mx-0 rounded shadow-green-900 shadow-md duration-200"}>Contact Us</button>
-                <button onClick={() => {window.location = '/AboutUs'}} className={"bg-gray-600 active:bg-gray-800 p-2 mx-2 hover:px-4 hover:mx-0 rounded shadow-gray-900 shadow-md duration-200"}>About Us</button>
+                <button onClick={() => {window.location = '/Services'}} className={"bg-gray-600 active:bg-gray-800 p-2 mx-2 hover:px-4 hover:mx-0 rounded shadow-gray-900 shadow-md duration-200"}>Services</button>
             </div>
 
             {/* Mobile Button Layout */}
             <div className={"sm:hidden grid grid-cols-1 absolute bottom-0 left-5 right-5 gap-5 my-5"}>
                 <button onClick={() => {toggleModal()}} className={"bg-blue-600 active:bg-blue-800 p-2 rounded shadow-blue-900 shadow-md duration-200"}>Book Online</button>
                 <button onClick={() => {window.location = '/ContactUs'}} className={"bg-green-600 active:bg-green-800 p-2 rounded shadow-green-900 shadow-md duration-200"}>Contact Us</button>
-                <button onClick={() => {window.location = '/AboutUs'}} className={"bg-gray-600 active:bg-gray-800 p-2 rounded shadow-gray-900 shadow-md duration-200"}>About Us</button>
+                <button onClick={() => {window.location = '/Services'}} className={"bg-gray-600 active:bg-gray-800 p-2 rounded shadow-gray-900 shadow-md duration-200"}>Services</button>
             </div>
         </div>
 

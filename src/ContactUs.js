@@ -7,7 +7,7 @@ function Home(props) {
     return (
       <div>
         <Navbar/>
-        <div className={"animate-fadein"}>
+        <div className={"animate-fadein flex flex-wrap-reverse sm:flex-wrap justify-center"}>
             <SocialMedia/>
             <GetInTouch/>
         </div>

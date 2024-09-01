@@ -15,7 +15,7 @@ root.render(
         <Route path="/">
           <Route index element={<Home/>}/>
           <Route path="ContactUs" element={<ContactUs/>}/>
-          <Route path="AboutUs" element={<AboutUs/>}/>
+          <Route path="Services" element={<AboutUs/>}/>
           <Route path="*" element={<NoPage/>}/>
         </Route>
       </Routes>
